@@ -1,8 +1,23 @@
 aid: amount
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amount.png
 name: Amount
-description: 'Amount is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Amount is a Chicago-based financial technology company that provides banks, credit unions,
+  and fintechs with a digital lending and account-origination platform. Spun out of the consumer lender
+  Avant in 2020 and backed by QED Investors, Amount delivers configurable software for personal loans,
+  point-of-sale and buy-now-pay-later financing, deposit and account opening, and integrated fraud,
+  identity verification, and decisioning. Its product API is delivered to enterprise banking customers
+  through a private, credentialed developer portal (docs.amount.com) rather than a public self-serve API.'
 url: https://raw.githubusercontent.com/api-evangelist/amount/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +31,14 @@ modified: '2026-07-17'
 tags:
 - Company
 - Fintech
+- Lending
+- Banking
+- Financial Services
+- Loan Origination
+- Account Opening
+- Fraud
+- Decisioning
+- Buy Now Pay Later
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/amount-domain-security.yml
 - type: Website
-  url: http://amount.com
+  url: https://amount.com
+- type: GitHubOrganization
+  url: https://github.com/amount
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
