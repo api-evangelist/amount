@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://amount.com', status: 301, note: 'declared website redirects to https://www.fisglobal.com/products/fis-origination-suite — a different registrable domain (amount.com -> fisglobal.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amount.png
 name: Amount
 description: 'Amount is a Chicago-based financial technology company that provides banks, credit unions,
