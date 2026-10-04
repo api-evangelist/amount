@@ -46,10 +46,10 @@ tags:
 - Fintech
 - Lending
 - Banking
-- Financial-Services
+- Financial Services
 - Loan Origination
 - Account Opening
-- Fraud
+- Fraud Prevention
 - Decisioning
 - Buy Now Pay Later
 tags_raw:
@@ -63,6 +63,7 @@ tags_raw:
 - Fraud
 - Decisioning
 - Buy Now Pay Later
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
