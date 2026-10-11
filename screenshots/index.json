@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "amount",
+    "captured_at": "2026-10-11T141737",
+    "source_url": "https://amount.com",
+    "source_type": "Website",
+    "file": "amount-2026-10-11T141737.png",
+    "bytes": 252660,
+    "capture": "playwright-local"
+  }
+]
