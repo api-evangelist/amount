@@ -1,16 +1,32 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/amount/integrations
 - https://n8n.io/integrations/amount/
 - https://composio.dev/toolkits/amount
 - https://monid.ai/tools/amount
 checked:
+- https://aws.amazon.com/marketplace/
 - https://composio.dev/toolkits/amount
 - https://monid.ai/tools/amount
 - https://n8n.io/integrations/amount/
 - https://zapier.com/apps/amount/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-un5stwdy3oczq
+  listing_count: 1
+  apps:
+  - Consumer Lending
+  seller_name: Amount
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
 templates: []
